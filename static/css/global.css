@@ -1,0 +1,291 @@
+/*
+ author:jo.li
+ 说明:weui的css补丁
+*/
+html,body{
+    height: 100%;
+    
+    -webkit-touch-callout:none;
+    -webkit-user-select:none ;
+}
+.weui_dialog{
+    top:20%
+}
+body {
+    background: rgb(245, 245, 245);
+    color: rgb(115, 115, 115);
+    font-family: "PingFang", "Source Code Pro","Helvetica","HelveticaNeue";
+}
+
+textarea,input{
+    border: 0;
+    outline: 0;
+    -webkit-appearance: none;
+    background-color: transparent;
+    font-size: inherit;
+    color: inherit;
+}
+textarea,input{
+
+    height: 1.41176471em;
+    line-height: 1.41176471;
+}
+::-webkit-input-placeholder { font-size: 14px; color: rgb(204,204,204)}
+i{
+    font-style: normal;
+}
+.weui_cell_left0:before{
+
+    left:0px!important;
+}
+.weui_dialog{
+
+    background: rgb(250,250,250);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+.weui_btn_dialog.default,.weui_btn_dialog.primary{
+
+    color:rgba(89,172,255,1) ;
+}
+.xsdApp-inline-block{
+
+    display: inline-block;
+}
+.xsdApp-hide{
+
+    display: none;
+}
+.xsdApp-text-left{
+
+    text-align: left;
+}
+
+/*基础背景色*/
+.xsdApp-bg-blue{
+
+    background: rgba(231,244,255,1);
+}
+.xsdApp-bg-blue-1{
+
+    background: rgba(89,172,255,1);
+}
+.xsdApp-bg-red{
+
+    background: rgba(255,81,83,1);
+}
+.xsdApp-bg-orange{
+    background: rgba(255,174,82,1);
+}
+
+.xsdApp-bg-yellow{
+    background: rgba(255,242,242,1);
+}
+.xsdApp-bg-white{
+
+   background: rgba(255,255,255,1);
+}
+.xsdApp-bg-gray{
+
+    background: rgba(250,250,250,1);
+}
+.xsdApp-bg-green{
+
+    background: rgb(66,179,119);
+}
+/*基础间距*/
+.xsdApp-margin-top10{
+
+    margin-top: 10px;
+}
+.xsdApp-margin-top6{
+    margin-top: 6px;
+}
+.xsdApp-margin-left6{
+    margin-left: 6px;
+}
+.xsdApp-margin-top-1{
+    margin-top: -1px;
+}
+/*基础背景图标和文字样式*/
+.xsdApp-font-size12{
+
+    font-size: 12px;
+}
+.xsdApp-font-size13{
+
+    font-size: 13px;
+}
+.xsdApp-font-size14{
+
+    font-size: 14px;
+}
+.xsdApp-font-size15{
+
+    font-size: 15px;
+}
+.xsdApp-font-size16{
+
+    font-size: 16px;
+}
+.xsdApp-font-size18{
+    font-size: 18px;
+}
+.xsdApp-color-black{
+
+    color:rgb(115,115,115)
+}
+.xsdApp-color-gray{
+
+    color:rgb(153,153,153)
+}
+.xsdApp-color-green{
+
+    color:rgb(66,179,119)
+}
+.xsdApp-color-red{
+
+    color:rgb(255,81,83)
+}
+.xsdApp-color-yellow{
+
+    color:rgb(255,174,82)
+}
+.xsdApp-color-blue{
+
+    color:rgb(89,172,255);
+}
+.xsdApp-text-center{
+    text-align: center;
+}
+.xsdApp-icon{
+    display: inline-block;
+    width: 22px;
+    height: 21px;
+}
+.xsdApp-icon-open{
+
+    background: url("../images/1x/open.png") no-repeat;
+    background: -webkit-image-set(url(../images/1x/open.png) 1x,url(../images/2x/open.png) 2x,url(../images/3x/open.png) 3x) no-repeat;
+}
+.xsdApp-icon-close{
+    background: url("../images/1x/pulldown.png") no-repeat;
+    background: -webkit-image-set(url(../images/1x/pulldown.png) 1x,url(../images/2x/pulldown.png) 2x,url(../images/3x/pulldown.png) 3x) no-repeat;
+}
+.xsdApp-icon-right{
+    background: url("../images/1x/right.png") no-repeat right center;
+    background: -webkit-image-set(url(../images/1x/right.png) 1x,url(../images/2x/right.png) 2x,url(../images/3x/right.png) 3x) no-repeat right center;
+}
+.xsdApp-label{
+    padding-left: 16px;
+}
+.xsdApp-label-blue{
+    background: url("../images/1x/labelblue.png") no-repeat  0px center;
+    background: -webkit-image-set(url(../images/1x/labelblue.png) 1x,
+    url(../images/2x/labelblue.png) 2x,
+    url(../images/3x/labelblue.png) 3x) no-repeat  0px center;
+}
+.xsdApp-label-green{
+    background: url("../images/1x/labelgreen.png") no-repeat  0px center;
+    background: -webkit-image-set(url(../images/1x/labelgreen.png) 1x,
+    url(../images/2x/labelgreen.png) 2x,
+    url(../images/3x/labelgreen.png) 3x) no-repeat  0px center;
+}
+.xsdApp-label-yellow{
+    background: url("../images/1x/labelyellow.png") no-repeat  0px center;
+    background: -webkit-image-set(url(../images/1x/labelyellow.png) 1x,
+    url(../images/2x/labelyellow.png) 2x,
+    url(../images/3x/labelyellow.png) 3x) no-repeat  0px center;
+}
+.xsdApp-label-orange{
+    background: url("../images/1x/labelorange.png") no-repeat  0px center;
+    background: -webkit-image-set(url(../images/1x/labelorange.png) 1x,
+    url(../images/2x/labelorange.png) 2x,
+    url(../images/3x/labelorange.png) 3x) no-repeat  0px center;
+}
+.xsdApp-label-spend{
+    background: url("../images/1x/spend.png") no-repeat  0px center;
+    background: -webkit-image-set(url(../images/1x/spend.png) 1x,
+    url(../images/2x/spend.png) 2x,
+    url(../images/3x/spend.png) 3x) no-repeat  0px center;
+}
+.xsdApp-label-income{
+    background: url("../images/1x/income.png") no-repeat  0px center;
+    background: -webkit-image-set(url(../images/1x/income.png) 1x,
+    url(../images/2x/income.png) 2x,
+    url(../images/3x/income.png) 3x) no-repeat  0px center;
+}
+.xsdApp-label-disc{
+    background: url("../images/1x/rectangleyellow.png") no-repeat  0px center;
+    background: -webkit-image-set(url(../images/1x/rectangleyellow.png) 1x,
+    url(../images/2x/rectangleyellow.png) 2x,
+    url(../images/3x/rectangleyellow.png) 3x) no-repeat  0px center;
+}
+.xsdApp-label-circle-red{
+
+    background: url("../images/1x/point-red.png") no-repeat  0px 6px;
+    background: -webkit-image-set(url(../images/1x/point-red.png) 1x,
+    url(../images/2x/point-red.png) 2x,
+    url(../images/3x/point-red.png) 3x) no-repeat  0px 6px;
+}
+.xsdApp-label-circle-gray{
+
+    background: url("../images/1x/point-gray.png") no-repeat  0px 6px;
+    background: -webkit-image-set(url(../images/1x/point-gray.png) 1x,
+    url(../images/2x/point-gray.png) 2x,
+    url(../images/3x/point-gray.png) 3x) no-repeat  0px 6px;
+}
+
+/*表单样式*/
+.xsdAPP-input{
+    font-size: 14px;
+    line-height: 18px;
+}
+/*头部样式*/
+header{
+    top:0px;
+    padding-top: 19px;
+    border-bottom:1px solid #cecece; 
+    line-height: 44px;
+    font-size: 18px;
+}
+.header-back,.header-add{
+    position: absolute;
+    width: 10px;
+    height: 19px;
+}
+.header-back{
+    left: 0px;
+    background: url("../images/1x/back.png") no-repeat right center;
+    background: -webkit-image-set(url(../images/1x/back.png) 1x,
+    url(../images/2x/back.png) 2x,
+    url(../images/3x/back.png) 3x) no-repeat right center;
+    padding:20px 0px 0px 30px;
+}
+.header-add{
+    right: 15px;
+    background: url("../images/1x/adding.png") no-repeat right center;
+    background: -webkit-image-set(url(../images/1x/adding.png) 1x,
+    url(../images/2x/adding.png) 2x,
+    url(../images/3x/adding.png) 3x) no-repeat right center;
+    padding:20px 10px 0px 0px;
+}
+.header-btn{
+    position: absolute;
+    right: 15px;
+    font-size: 15px;
+}
+#footer ,header{
+    position: absolute;
+    z-index: 20;
+    text-align: center;
+    background:  #ffffff;
+    /* background: rgba(73, 157, 242, 1); */
+    color:#4D4D4D;
+    text-align: center;
+    width: 100%;
+}
+#footer{
+    line-height: 52px;
+    bottom: 0px;
+}
